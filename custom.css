@@ -1,0 +1,99 @@
+body{
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	font-family: 'Heebo';
+}
+
+.nav, section, footer{
+	border:1px solid rgba(255,255,255,0.5);;
+	display: block;
+	width: 100%;
+}
+.nav td:hover{
+	background: linear-gradient(to bottom, rgb(61,62,62) 0%,rgb(62,62,62) 50%, rgb(78,78,78) 50%, rgb(78,78,78) 50%, rgb(78,78,78) 100%);
+}
+.nav{
+	width: 990px;
+	margin: 20px auto;
+	border: 1px solid #767676;
+	border-radius: 4px;
+	background-color: grey;
+	
+	background: linear-gradient(to bottom, #6C6C6C 0%,#6C6C6C 50%,#858585 50%,#858585 50%,#858585 100%);
+}
+.section1{
+	background-image: url("assets/main-pic.jpg");
+	background-position: 50% 100%;
+	height: 540px;
+}	
+.section1 img{
+	height: 25px;
+	margin-bottom: 0;
+}
+.section1 a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+
+}
+.section1 td{
+	box-shadow: -1px 1px 10px #888888;
+	border-right: 0.5px solid #474747;
+	width: 100px;
+	text-align: center;
+}
+.section1 p{
+	color: white;
+	font-size: 70px;
+	font-weight: 100;
+	text-align: center;
+}
+#mid-p{
+	margin: auto;
+	font-weight: 300;
+	font-size: 30px;
+	width: 800px;
+	margin-top: -85px;
+}
+.section1 p:last-child{
+	font-size: 23px;
+	font-weight: 300;
+}
+.section1 p:last-child:hover{
+	text-decoration: underline;
+}
+.section2 img{
+	width: 300px;
+	margin-right: -2px;
+}
+footer p{
+	font-size: 11px;
+	color: #6E7277;
+	margin-left: 110px;
+}
+footer a{
+	font-size: 11px;
+	color: #009AE3;
+	text-decoration: none;
+}
+
+.links{
+	float: right;
+	padding-top: 0;
+	margin-top: 5px;
+	margin-right: 100px;
+}
+.links a, #copyright a{
+	font-size: 10px;
+	border-right:1px solid #CCCCCC;
+	padding-right: 7px;
+	padding-left: 5px;
+}
+
+
+
+
+
+
